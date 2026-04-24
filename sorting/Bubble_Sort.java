@@ -1,7 +1,7 @@
 import java.util.*;
 
 public class Bubble_Sort{
-	public static void bubble_sort(int size, int arr[]){
+	public static void bubble_sort(int arr[]){
 		int n = arr.length;
 		for(int i = 0; i < n-1; i++){
 			for(int j = 0; j < n-i-1; j++){
@@ -26,7 +26,7 @@ public class Bubble_Sort{
 		}
 		
 		System.out.println("Before sorting: " +Arrays.toString(arr));
-		bubble_sort(size, arr);
+		bubble_sort(arr);
 		System.out.println("After sorting: " +Arrays.toString(arr));
 	}
 }
