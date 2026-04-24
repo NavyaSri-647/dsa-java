@@ -1,7 +1,7 @@
 import java.util.*;
 
 public class Selection_Sort{
-	public static void selectionSort(int size, int arr[]){
+	public static void selectionSort(int arr[]){
 		int n = arr.length;
 		for(int i = 0; i < n-1; i++){
 			int min = i;
@@ -27,7 +27,7 @@ public class Selection_Sort{
 		}
 		
 		System.out.println("Before Sorting : " + Arrays.toString(arr));
-		selectionSort(size, arr);
+		selectionSort(arr);
 		System.out.println("After Sorting : " + Arrays.toString(arr));
 	}
 }
