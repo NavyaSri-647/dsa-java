@@ -1,7 +1,7 @@
 import java.util.*;
 
 public class Insertion_Sort{
-	public static void insertionSort(int size, int arr[]){
+	public static void insertionSort(int arr[]){
 		int n = arr.length;
 		for(int i = 1; i < n; i++){
 			int key = arr[i];
@@ -26,7 +26,7 @@ public class Insertion_Sort{
 		}
 		
 		System.out.println("Before Sorting : " + Arrays.toString(arr));
-		insertionSort(size, arr);
+		insertionSort(arr);
 		System.out.println("After Sorting : " + Arrays.toString(arr));
 	}
 }
