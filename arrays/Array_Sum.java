@@ -1,5 +1,5 @@
 import java.util.*;
-// Test signed commit
+// test
 public class Array_Sum{
 	public static void sumOfElements(int size, int arr[]){
 		int sum = 0;
